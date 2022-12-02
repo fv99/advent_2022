@@ -6,7 +6,7 @@
 /*   By: practical <install gentoo>                 +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/02 13:57:27 by practical         #+#    #+#             */
-/*   Updated: 2022/12/02 14:09:31 by practical        ###   ########.fr       */
+/*   Updated: 2022/12/02 16:01:04 by practical        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	main()
 	{
 		if (c == '\n')							// reading each line
 		{
-			if (index != 0)
+			if (index != 0)						// if were not on empty line
 			{
 				int scancal;
 				sscanf(buf, "%d", &scancal);	// scan line in buffer for decimal integer, add to calories
